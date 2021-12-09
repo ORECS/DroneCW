@@ -25,7 +25,7 @@ public class DroneInterface  {
 	     */
 	    public DroneInterface() {
 	    	 s = new Scanner(System.in);    // set up scanner for user input
-	    	 char cha = ' ';
+	    	/* char cha = ' ';
 	     while(cha != 'n' || cha!= 'N') {
 	    	 
 	    		 System.out.println("Load(L)");
@@ -43,13 +43,14 @@ public class DroneInterface  {
 	    			 // might have to get rid of this while loop and think of sometehing else
 	    		 }
 	     }
+	     
 	    	 
+	    	 */
 	    		 System.out.print("Enter the width of the arena!");
 	    		 width = s.nextInt();
 	    		 System.out.println("Enter the height of the arena!");
 	    		 height = s.nextInt();
 	    		 myArena = new DroneArena(width, height);	// create arena of size 20*6
-	    		 
 	    	
 	        char ch = ' ';
 	        do {
